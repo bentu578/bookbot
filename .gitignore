@@ -1,1 +1,63 @@
 books/
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+*.db
+.env
+.venv/
+venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -----------------------
+# Go
+# -----------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.mod
+*.sum
+vendor/
+bin/
+
+# -----------------------
+# VS Code
+# -----------------------
+.vscode/
+.history/
+
+# -----------------------
+# System/Global
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Optional: Ignore everything not committed already in home directory
+# For personal repo cleanup (use with caution!)
+# /*
+# !/ToolTracker/
+# !/bookbot/
+# !/go_project/
+
